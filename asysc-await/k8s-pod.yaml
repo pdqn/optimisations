@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tornado-async-example
+spec:
+  containers:
+  - name: tornado-async-example
+    image: tornado-async-example
